@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Product Cards</title>
+  </head>
+  <body>
+    <div id="product-list"></div>
+    <template id="product-template">
+      <div class="item">
+        <h2 class="product-title"></h2>
+        <p class="product-price"></p>
+        <img class="product-image" />
+      </div>
+    </template>
+
+    <script>
+      const products = [
+        {
+          title: "Product 1",
+          price: "$10",
+          image: "https://via.placeholder.com/150",
+        },
+        {
+          title: "Product 2",
+          price: "$210",
+          image: "https://via.placeholder.com/1150",
+        },
+        {
+          title: "Product 3",
+          price: "$110",
+          image: "https://via.placeholder.com/1250",
+        },
+        //TODO:
+      ];
+
+      const template = document.getElementById("product-template").content;
+      const productList = document.getElementById("product-list");
+
+      products.forEach((product) => {
+        const clone = document.importNode(template, true);
+        clone.querySelector(".product-image").src = product.image;
+        clone.querySelector(".product-title").textContent = product.title;
+        clone.querySelector(".product-price").textContent = product.price;
+        productList.appendChild(clone);
+      });
+    </script>
+  </body>
+</html>

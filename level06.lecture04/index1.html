@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Template List Example</title>
+  </head>
+  <body>
+    <button id="add-item-button">Add Item</button>
+    <ul id="list-container"></ul>
+    <template id="add-new-li">
+      <li>new item add_1</li>
+    </template>
+
+    <script>
+      document
+        .getElementById("add-item-button")
+        .addEventListener("click", function () {
+          //TODO:
+          const itemList = document.getElementById("list-container"); // Список, куда будем добавлять элементы
+          const template = document.getElementById("add-new-li"); // Шаблон элемента списка
+
+          const clone = template.content.cloneNode(true);
+          document.getElementById("list-container").appendChild(clone);
+        });
+    </script>
+  </body>
+</html>
