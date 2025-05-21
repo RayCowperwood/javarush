@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Диалоговые окна</title>
+  </head>
+  <body>
+    <dialog open>
+      <button id="showDialog">open diag window</button>
+      <dialog id="myDialog">Opened dialog</dialog>
+    </dialog>
+    <script>
+      const dialog = document.getElementById("myDialog");
+      const showDialogButton = document.getElementById("showDialog");
+
+      showDialogButton.addEventListener("click", () => {
+        dialog.show();
+      });
+    </script>
+  </body>
+</html>

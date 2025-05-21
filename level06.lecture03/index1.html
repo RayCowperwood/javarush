@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Simple Dialog</title>
+  </head>
+  <body>
+    <button id="open-dialog">Open Dialog</button>
+    <dialog id="my-dialog">
+      <h2>Dialog Title</h2>
+      <p>This is a simple dialog window.</p>
+      <button id="close-dialog">Close</button>
+    </dialog>
+
+    <script>
+      const openButton = document.getElementById("open-dialog");
+      const closeButton = document.getElementById("close-dialog");
+      const dialog = document.getElementById("my-dialog");
+      function openCheck(dialog) {
+        console.log("Диалог открыт:", dialog);
+      }
+      openButton.addEventListener("click", () => {
+        dialog.showModal();
+        openCheck(dialog);
+      });
+      closeButton.addEventListener("click", () => {
+        dialog.close();
+      });
+      dialog.addEventListener("cancel", () => {
+        alert("Dialog was cancelled");
+      });
+    </script>
+  </body>
+</html>
