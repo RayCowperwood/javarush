@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Подсказки</title>
+  </head>
+  <body>
+    <form>
+      <label for="username">Имя пользователя:</label>
+      <input type="text" id="username" name="username" />
+      <div id="message"></div>
+    </form>
+    <script>
+      const input = document.getElementById("username");
+      const message = document.getElementById("message");
+
+      usernameInput.addEventListener("focus", function () {
+        hint.style.display = "block";
+        message.textContent = "Введите ваше имя пользователя";
+      });
+
+      usernameInput.addEventListener("blur", function () {
+        error.style.display = usernameInput.value === "" ? "block" : "none";
+        if (input.value.trim() === "") {
+          message.textContent = "Имя пользователя не может быть пустым";
+        } else {
+          message.textContent = "";
+        }
+      });
+    </script>
+  </body>
+</html>
