@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Adjacent Sibling Selector</title>
+    <style>
+      h2 + p {
+        color: red;
+        border-bottom: 1px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>This is a heading</h2>
+    <p>
+      This paragraph should be styled with red text and a black bottom border.
+    </p>
+    <h2>Another heading</h2>
+    <p>
+      This paragraph should also be styled with red text and a black bottom
+      border.
+    </p>
+    <p>This text should not be styled.</p>
+  </body>
+</html>
