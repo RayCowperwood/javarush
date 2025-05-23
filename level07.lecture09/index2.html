@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document with CSS Variables</title>
+    <style>
+      :root {
+        --text-color: #333;
+        --font-size: 16px;
+      }
+
+      h1 {
+        color: var(--text-color);
+      }
+
+      p {
+        color: var(--text-color);
+        font-size: var(--font-size);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Пример заголовка</h1>
+    <p>Пример текста абзаца.</p>
+  </body>
+</html>
