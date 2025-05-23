@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Специфичность селекторов</title>
+    <style>
+      p {
+        color: red;
+      }
+      .highlight {
+        color: blue;
+        font-size: 20px;
+      }
+      #uniqueParagraph {
+        color: green;
+        background-color: aqua;
+      }
+    </style>
+  </head>
+  <body>
+    <p id="uniqueParagraph" class="highlight">
+      Это абзац с различными уровнями специфичности стилей.
+    </p>
+  </body>
+</html>
