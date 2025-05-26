@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Управление видимостью контента</title>
+    <style>
+      .hidden {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <button
+      aria-expanded="false"
+      aria-controls="toggleContent"
+      id="toggleButton"
+    >
+      Open/Close
+    </button>
+
+    <div id="toggleContent" class="hidden">
+      Это скрытый текст, который можно показать или скрыть.
+    </div>
+
+    <script>
+      document
+        .getElementById("toggleButton")
+        .addEventListener("click", function () {
+          var toggleContent = document.getElementById("toggleContent");
+          var isExpanded = this.getAttribute("aria-expanded") === "true";
+
+          // Toggle the aria-expanded attribute
+          this.setAttribute("aria-expanded", !isExpanded);
+
+          // Toggle the visibility of the content
+          if (isExpanded) {
+            toggleContent.classList.add("hidden");
+          } else {
+            toggleContent.classList.remove("hidden");
+          }
+        });
+    </script>
+  </body>
+</html>
