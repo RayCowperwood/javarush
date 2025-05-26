@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Перенос текста</title>
+    <style>
+      .block {
+        width: 200px;
+        border: 1px solid black;
+        background-color: gray;
+      }
+      .normal {
+        white-space: normal;
+      }
+      .nowrap {
+        white-space: nowrap;
+      }
+      .pre {
+        white-space: pre;
+      }
+      .pre-wrap {
+        white-space: pre-wrap;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="block normal">
+        This is a long text that should wrap according to normal white-space
+        property in CSS where text will wrap to the next line at normal break
+        points.
+      </div>
+      <div class="block nowrap">
+        This is a long text that should not wrap and will extend beyond the
+        boundaries of its container because white-space is set to nowrap.
+      </div>
+      <div class="block pre">
+        This is a long text that should preserve white spaces and line breaks
+        exactly as they are in the source code when white-space is set to pre.
+      </div>
+      <div class="block pre-wrap">
+        This is a long text that should wrap and preserve line breaks and white
+        spaces as they are in the source code when white-space is set to
+        pre-wrap.
+      </div>
+    </div>
+  </body>
+</html>

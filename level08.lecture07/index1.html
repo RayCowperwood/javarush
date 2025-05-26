@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Text Overflow Example</title>
+    <style>
+      .container {
+        width: 200px;
+        white-space: nowrap;
+        overflow: hidden;
+        border: 1px solid #000;
+        background-color: #fff;
+      }
+
+      .clip {
+        text-overflow: clip;
+      }
+
+      .ellipsis {
+        text-overflow: ellipsis;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container clip">
+      This is a very long text that will be clipped at the end of the container.
+      It keeps going on and on.
+    </div>
+    <div class="container ellipsis">
+      This is a very long text that will be truncated with an ellipsis at the
+      end of the container. It keeps going on and on.
+    </div>
+  </body>
+</html>
