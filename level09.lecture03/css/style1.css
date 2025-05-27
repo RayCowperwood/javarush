@@ -1,0 +1,16 @@
+.content-box {
+  box-sizing: content-box;
+  padding: 20px;
+  height: 100px;
+  width: 200px;
+  border: 5px dotted blue;
+  background-color: yellow;
+}
+.border-box {
+  box-sizing: border-box;
+  padding: 20px;
+  height: 100px;
+  width: 200px;
+  border: 5px dotted blue;
+  background-color: red;
+}
