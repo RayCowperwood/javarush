@@ -1,0 +1,12 @@
+.pa {
+  padding: 20px;
+  background-color: blue;
+}
+.ma {
+  margin: 20px;
+  background-color: red;
+}
+.bo {
+  border: 10px solid black;
+  background-color: yellow;
+}
