@@ -1,0 +1,12 @@
+.fixed-width {
+  width: 250px;
+  background-color: blue;
+}
+.percentage-width {
+  width: 75%;
+  background-color: red;
+}
+.em-width {
+  width: 10em;
+  background-color: green;
+}
