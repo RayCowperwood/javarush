@@ -1,0 +1,5 @@
+.margined-element {
+  background-color: red;
+  margin: 30px 40px 50px 60px;
+  border: 10px dotted black;
+}
