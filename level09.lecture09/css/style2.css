@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  background-color: blue;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0;
+}
+.item {
+  background-color: black;
+  justify-content: space-between;
+  align-items: center;
+  color: antiquewhite;
+  flex: 1 1 calc(25% - 40px);
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+}
