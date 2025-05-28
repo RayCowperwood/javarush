@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  background-color: black;
+}
+.el1 {
+  flex-shrink: 0;
+  background-color: red;
+}
+.el2 {
+  flex-shrink: 1;
+
+  background-color: green;
+}
+.el3 {
+  flex-shrink: 1;
+
+  background-color: blue;
+}
