@@ -1,0 +1,8 @@
+.fs {
+  display: flex;
+  align-items: flex-start;
+}
+.fe {
+  display: flex;
+  align-items: flex-end;
+}
