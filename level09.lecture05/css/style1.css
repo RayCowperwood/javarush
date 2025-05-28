@@ -1,0 +1,20 @@
+#row {
+  display: flex;
+  flex-direction: row;
+  background-color: red;
+}
+#row-reverse {
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: green;
+}
+#column {
+  display: flex;
+  flex-direction: column;
+  background-color: blue;
+}
+#column-reverse {
+  background-color: yellow;
+  display: flex;
+  flex-direction: column-reverse;
+}

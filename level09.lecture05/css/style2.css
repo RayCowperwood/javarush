@@ -1,0 +1,18 @@
+.nowrap {
+  display: flex;
+  background-color: red;
+  flex-wrap: nowrap;
+  width: 20px;
+}
+.wrap {
+  display: flex;
+  background-color: green;
+  flex-wrap: wrap;
+  width: 20px;
+}
+.wrap-reverse {
+  display: flex;
+  background-color: blue;
+  flex-wrap: wrap-reverse;
+  width: 20px;
+}
