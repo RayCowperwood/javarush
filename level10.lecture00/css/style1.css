@@ -1,0 +1,9 @@
+.color-name {
+  background-color: red;
+}
+.hex-value {
+  background-color: #db3434;
+}
+.rgba-value {
+  background-color: rgba(128, 24, 44, 0.7);
+}
