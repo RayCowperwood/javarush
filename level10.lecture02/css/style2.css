@@ -1,0 +1,6 @@
+.cover-block {
+  height: 200px;
+  width: 200px;
+  background-image: url("https://via.placeholder.com/150");
+  background-size: cover;
+}
