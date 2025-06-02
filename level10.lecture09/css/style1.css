@@ -1,0 +1,15 @@
+.default-cursor {
+  cursor: default;
+  padding: 10px;
+  border: 1px solid black;
+}
+.pointer-cursor {
+  cursor: pointer;
+  padding: 10px;
+  border: 1px solid black;
+}
+.text-cursor {
+  cursor: text;
+  padding: 10px;
+  border: 1px solid black;
+}
