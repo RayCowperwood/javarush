@@ -1,0 +1,8 @@
+.decorative-line::before,
+.decorative-line::after {
+  content: "";
+  display: block;
+  height: 2px;
+  background: black;
+  margin: 10px 0;
+}

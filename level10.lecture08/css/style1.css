@@ -1,0 +1,8 @@
+.example::before {
+  content: "Начало: ";
+  color: blue;
+}
+.example::after {
+  content: " :Конец";
+  color: red;
+}
