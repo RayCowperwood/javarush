@@ -1,0 +1,12 @@
+.border-hex {
+  border: 3px solid #3498db;
+}
+.border-rgb {
+  border: 3px solid rgb(52, 152, 219);
+}
+.border-rgba {
+  border: 3px solid rgba(52, 152, 219, 0.5);
+}
+.border-hsl {
+  border: 3px solid hsl(204, 70%, 53%);
+}

@@ -1,0 +1,29 @@
+.element {
+  border-color: blue;
+  border-width: 3px;
+  margin: 20px;
+}
+.border-solid {
+  border-style: solid;
+}
+.border-dotted {
+  border-style: dotted;
+}
+.border-dashed {
+  border-style: dashed;
+}
+.border-double {
+  border-style: double;
+}
+.border-groove {
+  border-style: groove;
+}
+.border-ridge {
+  border-style: ridge;
+}
+.border-inset {
+  border-style: inset;
+}
+.border-outset {
+  border-style: outset;
+}
