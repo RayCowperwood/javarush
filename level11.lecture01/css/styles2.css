@@ -1,0 +1,12 @@
+.parent {
+  position: absolute;
+  z-index: 0;
+}
+.child1 {
+  position: absolute;
+  z-index: 1;
+}
+.child2 {
+  position: absolute;
+  z-index: 2;
+}
