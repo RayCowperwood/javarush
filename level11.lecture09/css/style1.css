@@ -1,0 +1,20 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.container {
+  display: flex;
+  margin-top: 60px; /* Высота фиксированной навигации */
+}
+
+.main-content {
+  flex: 3;
+  padding: 20px;
+}
+
+.sidebar {
+  flex: 1;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
