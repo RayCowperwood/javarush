@@ -1,0 +1,11 @@
+.container {
+  background-color: #f1c40f;
+  padding: 20px;
+  text-align: center;
+}
+.inline-element {
+  color: #fff;
+  display: inline;
+  background-color: #e74c3c;
+  padding: 10px;
+}
