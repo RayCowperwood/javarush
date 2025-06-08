@@ -1,0 +1,9 @@
+.scale-element {
+  width: 100px;
+  height: 100px;
+  background-color: #2ecc71;
+}
+.scale-element:hover {
+  transition: 0.5s;
+  transform: scale(1.5);
+}
