@@ -1,0 +1,11 @@
+.box {
+  position: relative;
+  height: 100px;
+  width: 100px;
+  background-color: #e74c3c;
+  left: 0;
+}
+.box:hover {
+  left: 100px;
+  transition: left 2s ease-in-out;
+}
