@@ -1,0 +1,14 @@
+div {
+  width: 100px;
+  height: 100px;
+}
+.element1 {
+  background-color: red;
+  transition: 1s;
+  transform: rotate(45deg) translate(50px, 50px);
+}
+.element2 {
+  background-color: blue;
+  transition: 1s;
+  transform: translate(50px, 50px) rotate(45deg);
+}

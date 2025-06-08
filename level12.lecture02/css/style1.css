@@ -1,0 +1,7 @@
+.transformed-element {
+  width: 100px;
+  height: 100px;
+  background-color: #2ecc71;
+  transition: 1s;
+  transform: translate(100px, 0) rotate(30deg) scale(2, 1.5);
+}
