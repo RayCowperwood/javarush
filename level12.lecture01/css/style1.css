@@ -1,0 +1,10 @@
+.rotating-element {
+  width: 100px;
+  height: 100px;
+  background-color: #3498db;
+}
+.rotating-element:hover {
+  transform-origin: 50% 50%;
+  transition: 0.5s;
+  transform: rotate(45deg);
+}
