@@ -1,0 +1,10 @@
+.button {
+  width: 100px;
+  height: 50px;
+  color: #fff;
+  background-color: #3498db;
+}
+.button:hover {
+  transform: scale(110%);
+  background-color: #2980b9;
+}
