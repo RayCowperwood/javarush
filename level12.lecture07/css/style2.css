@@ -1,0 +1,14 @@
+.animated-box {
+  width: 120px;
+  height: 120px;
+  background-color: #9b59b6;
+  animation: scaleUp 2s ease-in-out 1s alternate-reverse infinite;
+}
+@keyframes scaleUp {
+  from {
+    transform: scale(100%);
+  }
+  to {
+    transform: scale(150%);
+  }
+}
