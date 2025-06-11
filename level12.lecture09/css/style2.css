@@ -1,0 +1,16 @@
+#animate-box {
+  width: 100px;
+  height: 100px;
+  background-color: #2ecc71;
+}
+#animate-box.animate {
+  animation: animate 3s;
+}
+@keyframes animate {
+  from {
+    transform: translateX(0) rotate(0deg);
+  }
+  to {
+    transform: translateX(200px) rotate(360deg);
+  }
+}
