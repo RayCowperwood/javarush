@@ -1,0 +1,17 @@
+.pulsate {
+  width: 200px;
+  height: 200px;
+  background-color: #9b59b6;
+  animation: puls 3s infinite;
+}
+@keyframes puls {
+  0% {
+    transform: scale(100%);
+  }
+  50% {
+    transform: scale(120%);
+  }
+  100% {
+    transform: scale(100%);
+  }
+}
