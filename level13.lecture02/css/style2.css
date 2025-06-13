@@ -1,0 +1,17 @@
+.grid-container {
+        display: grid;
+        grid-template-columns: 200px 1fr 1fr; /* первая колонка фиксированная */
+        gap: 10px;
+      }
+
+      .grid-item {
+        background: #ddd;
+        padding: 20px;
+        text-align: center;
+        box-sizing: border-box;
+      }
+
+      .grid-item--wide {
+        grid-column: 1 / -1; /* растянуть от первой до последней колонки */
+        background: #bbb;
+      }
