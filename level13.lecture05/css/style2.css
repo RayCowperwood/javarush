@@ -1,0 +1,15 @@
+.background {
+        background-image: url("images/background-1x.jpg");
+      }
+
+      @media only screen and (min-resolution: 2dppx) {
+        .background {
+          background-image: url("images/background-2x.jpg");
+        }
+      }
+
+      @media only screen and (min-resolution: 3dppx) {
+        .background {
+          background-image: url("images/background-3x.jpg");
+        }
+      }

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Responsive Image with srcset and sizes</title>
+  </head>
+  <body>
+    <img
+      src="images/default.jpg"
+      srcset="
+        images/image-1x.jpg 1x,
+        images/image-2x.jpg 2x,
+        images/image-3x.jpg 3x
+      "
+      sizes="(max-width: 600px) 100vw,
+        (max-width: 1200px) 50vw, 33vw"
+      alt="Пример изображения для Retina-дисплеев"
+    />
+  </body>
+</html>
