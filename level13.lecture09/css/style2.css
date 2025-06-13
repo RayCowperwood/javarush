@@ -1,0 +1,21 @@
+.gallery {
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+      }
+      img {
+        flex: 1 1 calc((100% / 3) - 10px);
+        height: 200px;
+        border: 5px solid blue;
+        box-sizing: border-box;
+      }
+      @media (max-width: 768px) {
+        img {
+          flex: 1 1 calc((100% / 2) - 10px);
+        }
+      }
+      @media (max-width: 480px) {
+        img {
+          flex: 1 1 100%;
+        }
+      }
