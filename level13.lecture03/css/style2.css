@@ -1,0 +1,19 @@
+.container {
+        font-size: 1rem;
+        margin: 2rem;
+      }
+      .block-1 {
+        font-size: 1.25rem;
+        background-color: red;
+      }
+      .block-2 {
+        font-size: 1.5rem;
+        background-color: green;
+      }
+      .block-3 {
+        font-size: 1.75rem;
+        background-color: blue;
+      }
+      html {
+        font-size: 20px;
+      }
