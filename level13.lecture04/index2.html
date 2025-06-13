@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Responsive Image Example</title>
+  </head>
+  <body>
+    <!DOCTYPE html>
+    <html lang="ru">
+      <head>
+        <meta charset="UTF-8" />
+        <title>Responsive Image Example</title>
+      </head>
+      <body>
+        <img
+          class="responsive-img"
+          src="images/default.jpg"
+          srcset="
+            images/image-small.jpg   480w,
+            images/image-medium.jpg  800w,
+            images/image-large.jpg  1200w
+          "
+          sizes="(max-width: 600px) 480px,
+      (max-width: 900px) 800px,
+      1200px"
+          alt="Пример адаптивного изображения"
+        />
+      </body>
+    </html>
+  </body>
+</html>
