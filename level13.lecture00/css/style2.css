@@ -1,0 +1,8 @@
+.container {
+        width: 100%;
+        padding: 20px;
+      }
+      .box {
+        width: calc((100% - 40px) / 3);
+        float: left;
+      }
