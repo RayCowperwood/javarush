@@ -1,0 +1,13 @@
+@media (orientation: landscape) {
+        .content {
+          width: 70%;
+        }
+      }
+      @media (orientation: portrait) {
+        .sidebar {
+          display: none;
+        }
+        .content {
+          width: 100%;
+        }
+      }
