@@ -1,0 +1,17 @@
+@media (max-width: 600px) {
+        .less-important {
+          display: none;
+        }
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+
+      th,
+      td {
+        border: 1px solid #ccc;
+        padding: 8px;
+        text-align: left;
+      }
