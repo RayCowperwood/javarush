@@ -1,0 +1,15 @@
+.grid-container {
+        display: grid;
+        background-color: yellow;
+        border: 1px solid black;
+        gap: 20px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(5, 100px);
+      }
+      .grid-item {
+        background-color: aqua;
+        color: white;
+        text-align: center;
+        border: 2px solid red;
+        padding: 20px;
+      }
