@@ -1,0 +1,28 @@
+.main-grid {
+        display: grid;
+        gap: 10px;
+        border: 1px solid black;
+        color: beige;
+        background-color: gold;
+      }
+      .main-item {
+        border: 2px dotted black;
+        color: white;
+        background-color: red;
+        text-align: center;
+        padding: 10px;
+      }
+      .nested-grid {
+        display: grid;
+        gap: 10px;
+        border: 1px solid black;
+        color: white;
+        background-color: green;
+      }
+      .nested-item {
+        border: 2px double blue;
+        color: white;
+        background-color: aquamarine;
+        text-align: center;
+        padding: 20px;
+      }
