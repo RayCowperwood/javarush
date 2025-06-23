@@ -1,0 +1,13 @@
+.grid-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        place-items: stretch start;
+      }
+      .grid-item {
+        background-color: aqua;
+        color: red;
+        border: 1px dashed black;
+        width: 100px;
+        height: 100px;
+      }
