@@ -1,0 +1,29 @@
+.container {
+        display: grid;
+        gap: 10px;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-areas:
+          "header header header"
+          " . main ."
+          "footer footer footer";
+      }
+      .header {
+        grid-area: header;
+        background-color: black;
+        text-align: center;
+        color: #fff;
+        padding: 30px;
+      }
+      .main {
+        grid-area: main;
+        background-color: aqua;
+        text-align: center;
+        padding: 30px;
+      }
+      .footer {
+        grid-area: footer;
+        background-color: green;
+        text-align: center;
+        padding: 30px;
+      }
