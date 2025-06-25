@@ -1,0 +1,5 @@
+:disabled {
+        background-color: #d0d0d0;
+        color: #777;
+        cursor: not-allowed;
+      }
