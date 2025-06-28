@@ -1,0 +1,8 @@
+a {
+        color: blue;
+      }
+      a::before {
+        content: "🔗";
+        padding-right: 5px;
+        color: blue;
+      }
