@@ -1,0 +1,4 @@
+div > p:first-child::first-line {
+        font-weight: 700;
+        color: #2ecc71;
+      }

@@ -1,0 +1,5 @@
+li:last-child::after {
+        content: "❦";
+        color: #e74c3c;
+        padding-left: 10px;
+      }
