@@ -1,0 +1,4 @@
+.product li::after {
+        content: "🛒";
+        padding-left: 5px;
+      }

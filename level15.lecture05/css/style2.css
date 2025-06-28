@@ -1,0 +1,6 @@
+blockquote::before {
+        content: '"';
+        color: #d3d3d3;
+        padding-right: 10px;
+        font-size: 2em;
+      }
