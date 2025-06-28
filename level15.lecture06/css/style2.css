@@ -1,0 +1,11 @@
+p::first-letter {
+        font-size: 2em;
+        font-weight: 700;
+        color: #e74c3c;
+        padding-right: 0.1em;
+      }
+      p::first-line {
+        font-weight: 700;
+        color: #e67e22;
+        background-color: #fffde7;
+      }
