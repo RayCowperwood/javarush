@@ -1,0 +1,19 @@
+:root {
+  --bg-color: red;
+  --text-color: white;
+  --link-color: black;
+}
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+a {
+  color: var(--link-color);
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-color: blue;
+    --text-color: gray;
+    --link-color: rgb(84, 78, 78);
+  }
+}
