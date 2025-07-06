@@ -1,0 +1,14 @@
+:root {
+  --main-bg-color: #c3c3c3;
+  --main-text-color: #232222;
+  --button-color: #12a7e6;
+}
+body {
+  background-color: var(--main-bg-color);
+}
+p {
+  color: var(--main-text-color);
+}
+button {
+  background-color: var(--button-color);
+}

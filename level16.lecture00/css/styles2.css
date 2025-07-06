@@ -1,0 +1,11 @@
+:root {
+  --main-bg-color: #ccc;
+  --main-text-color: #442626;
+}
+body {
+  background-color: var(--main-bg-color);
+  color: var(--main-text-color);
+}
+p {
+  color: var(--main-text-color);
+}
