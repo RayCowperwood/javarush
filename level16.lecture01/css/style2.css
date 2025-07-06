@@ -1,0 +1,9 @@
+:root {
+  --padding: 20px;
+  --margin: 20px;
+}
+.container {
+  padding: var(--padding);
+  margin: var(--margin);
+  border: 2px dashed red;
+}
