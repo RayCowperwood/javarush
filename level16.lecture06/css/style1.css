@@ -1,0 +1,5 @@
+.clamp-width-block {
+  background-color: aquamarine;
+  padding: 20px;
+  width: clamp(200px, 50%, 600px);
+}

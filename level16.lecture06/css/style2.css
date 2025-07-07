@@ -1,0 +1,5 @@
+.clamp-font-size {
+  font-size: clamp(14px, 2vw, 24px);
+  background-color: aqua;
+  padding: 20px;
+}
