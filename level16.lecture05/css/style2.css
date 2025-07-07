@@ -1,0 +1,10 @@
+.responsive-padding {
+  padding: 10px;
+  background-color: aqua;
+  border: 2px dashed red;
+}
+@media (min-width: 600px) {
+  .responsive-padding {
+    padding: calc(10px + 2%);
+  }
+}

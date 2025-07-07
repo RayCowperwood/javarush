@@ -1,0 +1,5 @@
+.combined-height {
+  background-color: aqua;
+  padding: 20px;
+  height: calc(50% - 20px);
+}
