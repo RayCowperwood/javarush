@@ -1,0 +1,4 @@
+.dynamic-width {
+  width: calc(60% - 15px);
+  margin: 0 auto;
+}
