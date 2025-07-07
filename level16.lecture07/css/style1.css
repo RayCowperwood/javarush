@@ -1,0 +1,5 @@
+.linear-gradient-45 {
+  height: 300px;
+  width: 300px;
+  background: linear-gradient(45deg, yellow, green);
+}
