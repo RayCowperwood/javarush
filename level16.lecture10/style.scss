@@ -1,0 +1,17 @@
+$primary-color: #2c3e50;      // тёмный синий для текста
+$secondary-color: #f39c12;    // ярко-оранжевый для заголовков
+$background-color: #ecf0f1;   // светлый фон страницы
+
+body {
+  background-color: $background-color;
+  color: $primary-color;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+h1, h2, h3 {
+  background-color: $secondary-color;
+  color: white;
+  padding: 10px;
+  border-radius: 4px;
+}
