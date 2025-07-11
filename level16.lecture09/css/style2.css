@@ -1,0 +1,13 @@
+:root {
+  --hue: 180;
+}
+.theme-toggle {
+  height: 500px;
+  background-color: hsl(var(--hue), 100%, 50%);
+  text-align: center;
+  line-height: 500px;
+  font-size: 50px;
+  font-weight: 700;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}

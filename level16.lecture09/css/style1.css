@@ -1,0 +1,12 @@
+.dynamic-styles {
+  margin: 0 auto;
+  max-width: 800px;
+  padding: calc(var(--base-padding) * 2);
+  text-align: center;
+  font-size: clamp(calc(var(--base-font-size) * 1.5), 3vw, 36px);
+  border: clamp(calc(var(--base-font-size) * 0.1), 0.5vw, 10px) solid black;
+}
+:root {
+  --base-font-size: 16px;
+  --base-padding: 10px;
+}
